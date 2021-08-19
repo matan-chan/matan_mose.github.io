@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>matan-chan site’s</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel = "icon" href = 
+		"assets\css\images\website.png"
+				type = "image/x-icon">
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Matan Moshe</h1>
+						<p>graduated with a B.Sc. CS degree &nbsp;&bull;&nbsp; engineer &nbsp;&bull;&nbsp; AI</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/matan-moshe/" class="icon brands fa-linkedin"><span class="label">Facebook</span></a></li>
+								<li><a href="https://github.com/matan-chan" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a onclick="send_mail()" href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+			</div>
+		</div>
+		<script>
+			function send_mail()
+			{
+				window.open('mailto:matan403005@gmail.com');
+			}
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
